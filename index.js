@@ -5,3 +5,8 @@ function findMatching(array, str) {
     return item.toLowerCase() === str.toLowerCase();
   });
 }
+function fuzzyMatch(array, str) {
+  return array.filter(function(item){
+    return item.slice(0, str.length) === str ;
+  });
+}
