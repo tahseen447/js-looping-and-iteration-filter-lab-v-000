@@ -2,6 +2,6 @@
 
 function findMatching(array, str) {
   return array.filter(function(item) {
-    item === str;
+    return item.toLowerCase() === str.toLowerCase();
   });
 }
