@@ -12,5 +12,5 @@ function fuzzyMatch(array, str) {
 }
 
 function matchName(list, name) {
-  if (t)
+  if(typeOf(list) === Object)
 }
