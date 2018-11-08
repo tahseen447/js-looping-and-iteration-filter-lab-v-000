@@ -11,6 +11,6 @@ function fuzzyMatch(array, str) {
   });
 }
 
-function matchName(array, name) {
-
+function matchName(list, name) {
+  if (t)
 }
