@@ -11,6 +11,8 @@ function fuzzyMatch(array, str) {
   });
 }
 
-function matchName(list, name) {
-  if(typeOf(list) === Object)
+function matchName(list, driver) {
+  return list.filter(function(item) {
+    return
+  })
 }
